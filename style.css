@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-content: end;
+    gap: 20px;
+    text-decoration: none;
+}
+h1{
+   font-family: "Sekuya", system-ui;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.image {
+    width: 50%;
+    height: auto;
+}
+.flex{
+    display: flex;
+
+}
+.hero{
+    background-color: #FFFFFF;
+    color: #345013;
+}
+.button1{
+    color: white;
+    padding: 10px 20px;
+    background: orange;
+    border-radius: 20px;
+    text-decoration: none;
+    gap: 20px;
+}
+.button2{
+    color: orange;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.ctre{
+    align-content: center;
+    margin: 100px;
+    max-width: 800px;
+    display: inline;
+}
+ul{
+    list-style-image: none;
+}
+section{
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+}
+.ctre2{
+    align-content: center;
+}
+.promesses-ctre{
+    text-align: center;
+    
+}
+.promesses-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.promesses-img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.promesses-list{
+    list-style: none;
+    padding: 0px;
+}
+
+.promesses-list li{
+    margin-bottom: 15px;
+}
+.promesses{
+    background-color: #FFFFFF;
+    color: #345013;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: auto;
+    width: 250px;
+    align-content: center;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.moi{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+    
