@@ -102,8 +102,36 @@ article{
 }
 .moi{
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 60px;
     flex-direction: row;
 }
-    
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.app{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 40px;
+}
+.contemporaine{
+    display: flex;
+    justify-content: end;
+}
+.avis{
+    display: flex;
+    padding: 10px;
+    background-color: #5C5C5C;
+    margin: 20px;
+    gap: 60px;
+    border: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #EDEDED;
+}
