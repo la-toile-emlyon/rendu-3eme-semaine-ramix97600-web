@@ -21,11 +21,11 @@
             <img src="assets/architecte-interieur/logo.png" alt="image logo" width="80px" height="80px">
         </a>
         <nav>
-            <a href="">Promesses</a>
-            <a href="">Prestations </a>
-            <a href="">Projet</a>
-            <a href="">Témoignages</a>
-            <a href="">Contact</a>
+            <a class="menu" href="">Vision</a>
+            <a class="menu" href="#Nos prestations">Expertise</a>
+            <a class="menu" href="#Réalisations">Projets</a>
+            <a class="menu" href="#Témoignages">Avis</a>
+            <a class="menu" href="#Formulaire">Contact</a>
         </nav>
 
     </header>
@@ -38,8 +38,7 @@
                 <a class="button2" href="">Voir mes réalisations</a>
             </div>
 
-            <img class="image" src="assets/architecte-interieur/services/mobilier-sur-mesure.jpg" alt="image mobilier">
-
+            <img class="image" src="assets/architecte-interieur/illustration-plan.jpg" alt="image mobilier">
         </div>
     </section>
     <section class="promesses">
@@ -48,7 +47,8 @@
             <p> Une approche centrée sur vos besoins et votre bien-être</p>
         </div>
         <div class="promesses-content">
-            <img class="promesses-img" src="assets/architecte-interieur/services/renovation.png" alt="image renovation">
+            <img class="promesses-img" src="assets/architecte-interieur/projets/CamScanner 15-04-2026 23.20n.jpg" alt="image promesses"
+            height="600px">
             <ul class="promesses-list">
                 <li>Une approche humaine et créative, centrée sur vos usages et vos envies</li>
                 <li>Des matériaux durables et des fournisseurs locaux privilégiés</li>
@@ -58,12 +58,12 @@
             </ul>
         </div>
     </section>
-    <section>
+    <section id="Nos prestations">
         <h2>Nos prestations</h2>
         <div class="moi">
             <div>
                 <article>
-                    <img src="assets/architecte-interieur/projets/devanture-boutique.jpg" alt="" width="300px">
+                    <img src="assets/architecte-interieur/services/renovation.png" alt="" width="300px">
                     <h3>Rénovation d'appartements</h3>
                     <p> Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants,
                         fonctionnels et chaleureux.</p>
@@ -72,7 +72,7 @@
             </div>
             <div>
                 <article>
-                    <img src="assets/architecte-interieur/projets/studio-etudiant.jpg" alt="" width="300px">
+                    <img src="assets/architecte-interieur/services/mobilier-sur-mesure.jpg" alt="" width="300px">
                     <h3>Aménagement sur mesure</h3>
                     <p>Conception de mobilier intégré et d'espaces adaptés à vos besoins : bibliothèques, rangements,
                         cuisines, bureaux...</p>
@@ -81,7 +81,7 @@
             </div>
             <div>
                 <article>
-                    <img src="assets/architecte-interieur/projets/studio-etudiant.jpg" alt="image studio-etudiant"
+                    <img src="assets/architecte-interieur/services/choix-couleur-materiau.jpg" alt="image studio-etudiant"
                         width="300px">
                     <h3>Décoration intérieure</h3>
                     <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une
@@ -91,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Réalisations">
         <h2>Réalisations</h2>
         <div>
             <div class="app">
@@ -142,7 +142,7 @@
                     width="400px">
                 <div>
     </section>
-    <section>
+    <section id="Témoignages">
         <h2>Témoignages</h2>
         <div class="avis">
             <div>
@@ -169,7 +169,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Formulaire">
         <div class="formulaire">
         <div>
             <h3>Prêts à travaille ensemble ?</h3>
@@ -179,7 +179,7 @@
         </div>
         <div>
             <form action="/ma-page-de-traitement" method="post">
-                <ul>
+                <ul class="msg">
                     <li>
                         <label for="name">Nom&nbsp;:</label>
                         <input type="text" id="name" name="user_name" />
